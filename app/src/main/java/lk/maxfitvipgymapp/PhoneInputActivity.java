@@ -36,9 +36,9 @@ public class PhoneInputActivity extends AppCompatActivity {
                     Toast.makeText(PhoneInputActivity.this, "Enter a valid phone number", Toast.LENGTH_SHORT).show();
                 } else {
                     // Proceed to next screen
-//                    Intent intent = new Intent(PhoneInputActivity.this, NextActivity.class);
-//                    intent.putExtra("PHONE_NUMBER", fullNumber);
-//                    startActivity(intent);
+                    Intent intent = new Intent(PhoneInputActivity.this, VerificationActivity.class);
+                    intent.putExtra("PHONE_NUMBER", fullNumber);
+                    startActivity(intent);
                 }
             }
         });

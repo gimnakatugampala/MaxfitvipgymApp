@@ -24,6 +24,7 @@
 
         <activity android:name=".WelcomeActivity" android:exported="true"/>
         <activity android:name=".PhoneInputActivity" android:exported="true"/>
+        <activity android:name=".VerificationActivity" android:exported="true"/>
 
 
     </application>
