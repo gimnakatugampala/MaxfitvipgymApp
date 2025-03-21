@@ -59,11 +59,11 @@ public class MembershipInputActivity extends AppCompatActivity {
         Toast.makeText(this, "Registration Successful!", Toast.LENGTH_SHORT).show();
 
         // Example intent to navigate to another activity
-//        Intent intent = new Intent(MembershipInputActivity.this, DashboardActivity.class);
-//        intent.putExtra("MEMBERSHIP_ID", membershipId);
-//        intent.putExtra("FIRST_NAME", firstName);
-//        intent.putExtra("LAST_NAME", lastName);
-//        startActivity(intent);
-//        finish();
+        Intent intent = new Intent(MembershipInputActivity.this, HomeActivity.class);
+        intent.putExtra("MEMBERSHIP_ID", membershipId);
+        intent.putExtra("FIRST_NAME", firstName);
+        intent.putExtra("LAST_NAME", lastName);
+        startActivity(intent);
+        finish();
     }
 }
