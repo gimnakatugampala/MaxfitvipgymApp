@@ -43,9 +43,9 @@ public class VerificationActivity extends AppCompatActivity {
             if (enteredOtp.equals(correctOtp)) {
                 Toast.makeText(VerificationActivity.this, "OTP Verified!", Toast.LENGTH_SHORT).show();
                 // Proceed to next screen
-//                Intent intent = new Intent(VerificationActivity.this, NextActivity.class);
-//                startActivity(intent);
-//                finish();
+                Intent intent = new Intent(VerificationActivity.this, MembershipInputActivity.class);
+                startActivity(intent);
+                finish();
             } else {
                 Toast.makeText(VerificationActivity.this, "Invalid OTP. Try again.", Toast.LENGTH_SHORT).show();
             }
