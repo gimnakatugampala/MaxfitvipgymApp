@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         hello = findViewById(R.id.btnS);
 
         hello.setOnClickListener(view -> {
-            Intent intent = new Intent(this, WelcomeActivity.class);
+            Intent intent = new Intent(MainActivity.this, HomeActivity.class);
            startActivity(intent);
         });
     }

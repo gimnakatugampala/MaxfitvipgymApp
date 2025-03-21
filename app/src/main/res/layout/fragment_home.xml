@@ -5,30 +5,31 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="16dp"
-    android:background="#F5F5F5">
+    android:background="#000000"> <!-- Set background to black -->
 
     <!-- Dashboard Stats -->
     <com.google.android.material.card.MaterialCardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
         android:padding="16dp"
         android:layout_marginBottom="16dp"
-        android:background="@color/white">
+        android:background="@android:color/white"> <!-- Card background white for contrast -->
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Your Progress"
             android:textSize="20sp"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            android:textColor="@android:color/black"/> <!-- Text color black for visibility -->
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Workout Hours: 12h 30m"
             android:textSize="16sp"
-            android:layout_marginTop="8dp"/>
+            android:layout_marginTop="8dp"
+            android:textColor="@android:color/black"/> <!-- Text color black for visibility -->
     </com.google.android.material.card.MaterialCardView>
 
     <!-- Start Work Schedule Button -->
@@ -38,6 +39,6 @@
         android:layout_height="56dp"
         android:text="Start Work Schedule"
         android:textColor="@android:color/white"
-        android:backgroundTint="@color/colorPrimary"
-        android:textSize="18sp"/>
+    android:backgroundTint="@color/colorPrimary"
+    android:textSize="18sp"/>
 </LinearLayout>

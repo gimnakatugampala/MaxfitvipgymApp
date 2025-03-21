@@ -9,5 +9,6 @@
     <color name="nav_item_color">#FFD300</color> <!-- Yellow for inactive items -->
     <color name="nav_item_color_active">#FFFFFF</color> <!-- White for active items -->
     <color name="nav_background_color">#000000</color> <!-- Black background for BottomNavigationView -->
+    <color name="nav_item_color_inactive">#FFFFFF</color>  <!-- White color for inactive items -->
 
 </resources>
