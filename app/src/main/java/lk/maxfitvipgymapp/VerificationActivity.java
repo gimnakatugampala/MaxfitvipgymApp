@@ -33,6 +33,7 @@ public class VerificationActivity extends AppCompatActivity {
 
         setupOtpInputs();
 
+
         verifyButton.setOnClickListener(v -> {
             String enteredOtp = otp1.getText().toString() +
                     otp2.getText().toString() +
